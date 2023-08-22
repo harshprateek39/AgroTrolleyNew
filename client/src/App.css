@@ -1,0 +1,45 @@
+
+.Apax{min-height: 500px;}
+.Person{ transform: translateX(-50%);  }
+.MinimiumH{ min-height: 41vh; }
+
+.STicky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+.STicky + .App {
+  padding-top: 140px;
+}
+ .mango{
+  animation-name: example;
+  animation-duration: 0.3s;
+}
+.fango{
+  animation-name: example2;
+  animation-duration: 0.3s;
+}
+
+@keyframes example {
+  0% {transform: translateX(400px);}
+  100% {opacity: 1;}
+}
+@keyframes example2 {
+  0% {transform: translateX(-400px);}
+  100% {opacity: 1;}
+}
+
+
+.PicG::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+html{ scroll-behavior: smooth;}
+
+@media screen and (max-width: 1024px) {
+    .Extracss{ min-height: 100vw; }
+  }
+
+
